@@ -137,6 +137,35 @@ body {
   transition: background-color var(--transition-slow), color var(--transition-slow);
   overflow-x: hidden;
 }
+.creator-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.6rem 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.85rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.creator-name {
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: -0.01em;
+}
+
+.creator-ig {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.creator-ig:hover {
+  color: rgba(255, 255, 255, 0.85);
+}
 
 /* Subtle steppe-pattern background */
 body::before {
